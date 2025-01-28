@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atom Motion</title>
+    <style>
+        /* Change the font globally */
+        body {
+            font-family: 'Arial', sans-serif; /* You can replace 'Arial' with any other font or include Google Fonts */
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Optional: Light background */
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        /* Style for image container */
+        .gif-container {
+            display: flex;
+            justify-content: center; /* Center the images horizontally */
+            gap: 20px; /* Add spacing between images */
+            margin: 20px auto;
+        }
+
+        /* Style individual GIF blocks */
+        .gif-block {
+            text-align: center;
+            max-width: 200px; /* Optional: Restrict the width of individual GIFs */
+        }
+
+        .gif-block img {
+            width: 100%; /* Responsive images */
+            max-width: 200px; /* Optional: Adjust size for larger GIFs */
+            height: auto; /* Maintain aspect ratio */
+            border: 2px solid #ddd;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .gif-block h2 {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Atom Motion in RENi2 Phases -[103]- </h1>
-    <img src="Animation_Zonenachse_[103]_AngleView.gif" alt="Animation">
-    <img src="Animation_Zonenachse_[103]_almostAxis.gif" alt="Animation">
-    <img src="Animation_Zonenachse_[103]_Axis.gif" alt="Animation">
+    <h1>Atom Motion in RENi2 Phases - [103]</h1>
+    <div class="gif-container">
+        <!-- GIF 1 -->
+        <div class="gif-block">
+            <img src="Animation_Zonenachse_[103]_AngleView.gif" alt="Angle View Animation">
+            <h2>Angle View</h2>
+        </div>
+
+        <!-- GIF 2 -->
+        <div class="gif-block">
+            <img src="Animation_Zonenachse_[103]_almostAxis.gif" alt="Almost Axis Animation">
+            <h2>Almost Axis</h2>
+        </div>
+
+        <!-- GIF 3 -->
+        <div class="gif-block">
+            <img src="Animation_Zonenachse_[103]_Axis.gif" alt="Axis Animation">
+            <h2>Axis View</h2>
+        </div>
+    </div>
 </body>
 </html>
