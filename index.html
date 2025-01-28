@@ -25,19 +25,19 @@
         /* Flexbox für GIF-Container */
         .gif-container {
             display: flex;
-            justify-content: space-evenly; /* Gleichmäßige Verteilung */
+            justify-content: center; /* Zentriere die GIFs */
             align-items: flex-start; /* Bilder oben ausrichten */
-            gap: 20px;
+            gap: 40px; /* Mehr Abstand zwischen den Bildern */
             margin: 20px auto;
             padding: 0 20px;
-            max-width: 95%; /* Nutze fast die gesamte Breite */
+            max-width: 90%; /* Nutze fast die gesamte Breite */
         }
 
         /* Styling für einzelne GIF-Blöcke */
         .gif-block {
             text-align: center;
-            flex: 1; /* Sorgt für flexible Größenverteilung */
-            max-width: 33%; /* Begrenze die Breite auf maximal ein Drittel */
+            flex: 1; /* Flexible Größe für jedes GIF */
+            max-width: 45%; /* Nutze 45% der Breite pro GIF */
         }
 
         .gif-block img {
