@@ -1,3 +1,5 @@
 # Atom-Motion-in-RENi2-Phases
 
-![Animation](Animation_Perspektive%5B50_0%5D.gif)
+![Animation](Animation_Zonenachse_[103]_AngleView.gif)
+![Animation](Animation_Zonenachse_[103]_almostAxis.gif)
+![Animation](Animation_Zonenachse_[103]_Axis.gif)
