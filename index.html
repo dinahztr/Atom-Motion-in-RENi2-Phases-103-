@@ -5,6 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atom Motion</title>
     <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .legend {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 120px;
+        }
+
+        .gif-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            margin: 20px auto;
+            padding: 0 20px;
+            max-width: 98%;
+        }
+
+        .gif-block {
+            text-align: center;
+            flex: 1;
+            max-width: 48%;
+        }
+
+        .gif-block img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gif-block h2 {
+            font-size: 1.5rem;
+            color: #555;
+            margin-top: 10px;
+            font-weight: normal;
+        }
+
+        @media (max-width: 1000px) {
+            .gif-container {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .gif-block {
+                max-width: 100%;
+            }
+
+            .legend {
+                position: static;
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <h1>Atom Motion in RE<span style="font-variant: subscript;">Ni</span><sub>2</sub> Phases - <103></h1>
+        <img src="Legende.png" alt="Legende" class="legend">
+    </div>
+    <div class="gif-container">
+        <div class="gif-block">
+            <img src="Animation_Zonenachse_[103]_AngleView.gif" alt="Angle View Animation">
+            <h2>Angle View</h2>
+        </div>
+        <div class="gif-block">
+            <img src="Animation_Zonenachse_[103]_Axis.gif" alt="Axis Animation">
+            <h2>Axis View</h2>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atom Motion</title>
+    <style>
         /* Globale Schriftart und Hintergrundfarbe */
         body {
             font-family: 'Times New Roman', serif; /* Verwende explizit serif */
@@ -73,7 +181,7 @@
     </style>
 </head>
 <body>
-    <h1>Atom Motion in RENi2 Phases - [103]</h1>
+    <h1>Atom Motion in RENi2 Phases - <103></h1>
     <div class="gif-container">
         <!-- GIF 1 -->
         <div class="gif-block">
